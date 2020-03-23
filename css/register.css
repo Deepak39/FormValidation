@@ -1,0 +1,30 @@
+.container{
+	margin: 50px;
+	padding: 25px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+	background-color: #E8E8E8;
+	align-items: center;
+	align-content: center;
+}
+.container:hover{
+	background-color: #dedede;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+.container label{
+	margin: 5px;
+}
+.container input{
+	margin: 10px;
+}
+.container input[type="submit"]{
+	margin-top: 20px;
+	margin-left: 100px;
+	background-color: #0000ff;
+	color: #fff;
+	padding: 10px;
+	width: 100px;
+	border-radius: 10px;
+	outline-color: #0000AA;
+	box-shadow: 10px 10px 10px #E8E8E8;
+}

@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title> Registration Form </title>
+	<link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+
+	<script src="js/regFormValidate.js"></script>
+
+	<div class="container">
+		<form name="regform" onsubmit="return validateRegForm()">
+			<label> Name: </label> <input type="text" name="name" required><br>
+			<label> Phone No: </label> <input type="tel" name="phone_no" required><br>
+			<label> Email: </label> <input type="email" name="email" required><br>
+			<label for="address"> Address: </label> 
+			<textarea name="address" rows=10 col=10 required></textarea><br>
+			<input type="submit" value="REGISTER">
+		</form>
+	</div>
+
+</body>
+</html>
