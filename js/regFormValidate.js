@@ -1,5 +1,12 @@
 function validateRegForm() {
 
+    /*---------------------------
+    This file do not check empty 
+    feilds. So make sure you use
+    'required' property to necessary 
+    input fiels of html file.
+    ----------------------------*/
+    
     var name = document.regform.name;
     var email = document.regform.email;
     var phone_no = document.regform.phone_no;
