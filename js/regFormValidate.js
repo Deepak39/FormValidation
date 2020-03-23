@@ -11,7 +11,7 @@ function validateRegForm() {
     var email = document.regform.email;
     var phone_no = document.regform.phone_no;
     var address = document.regform.address;
-    var phoneno = /^\d{10}$/;
+    var phoneno = /^\d{10}$/;       // regex that satisfy phone no
 
     // window.alert(name.value + "\n" + email.value + "\n" + phone_no.value + "\n" + address.value);
 
